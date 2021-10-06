@@ -77,7 +77,7 @@ p{
 ============ */
 .inner__title{
     height: 750px;
-    background:#31344e url(/img/bgi.png) center no-repeat ;
+    background:#31344e url(./img/bgi.png) center no-repeat ;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
