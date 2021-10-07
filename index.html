@@ -8,6 +8,33 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <!-- sprite -->
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 10 20">
+            <g transform="translate(-385.000000, -7399.000000)">
+                <g transform="translate(56.000000, 160.000000)">
+                    <path d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z" id="facebook-[#176]"></path>
+                </g>
+            </g>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 10 20">
+            <g transform="translate(-60.000000, -7521.000000)">
+                <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#154]"></path>
+                </g>
+            </g>
+        </symbol>
+        <symbol id="linkedin" viewBox="0 0 72 72">
+            <g transform="translate(-376.000000, -267.000000)">
+                <g transform="translate(376.000000, 267.000000)">
+                    <path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" id="Rounded"></path>
+                    <path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#fff"></path>
+                </g>
+            </g>
+        </symbol>
+
+    </svg>
+
     <!-- header -->
     <header class="header">
         <div class="container">
@@ -134,5 +161,129 @@
                 </div>
             </div>
         </div> <!-- /.works-->
+        <!-- team -->
+        <div class="team">
+            <div class="container">
+                <!-- team__container -->
+                <div class="team__container">
+                    <div class="team__person">
+                        <img src="/img/team/Ruth.jpg" alt="Ruths_photo" class="person__photo">
+                        <h3 class="person__name">Ruth Woods</h3>
+                        <p class="person_profession">Foubder, Ceo</p>
+                        <p class="person__about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <!-- social -->
+                        <div class="social">
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facebook"></use>>
+                                </svg>
+                            </a>
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>>
+                                </svg>
+                            </a>                      
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedin"></use>>
+                                </svg>
+                            </a>
+                        </div>
+                        <!-- /.social -->                    
+
+                    </div>
+                    <div class="team__person">
+                        <img src="/img/team/timothy.jpg" alt="Timothys_photo" class="person__photo">
+                        <h3 class="person__name">Timothy Reed</h3>
+                        <p class="person_profession">Co-founder, developer</p>
+                        <p class="person__about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="social">
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facebook"></use>>
+                                </svg>
+                            </a>
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>>
+                                </svg>
+                            </a>                      
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedin"></use>>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__person">
+                        <img src="/img/team/viktoria.jpg" alt="Victorias_photo" class="person__photo">
+                        <h3 class="person__name">Victoria Valdez</h3>
+                        <p class="person_profession">Ui designer</p>
+                        <p class="person__about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>                      
+                        
+                        <div class="social">
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facebook"></use>>
+                                </svg>
+                            </a>
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>>
+                                </svg>
+                            </a>                      
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedin"></use>>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__person">
+                        <img src="/img/team/bever.jpg" alt="Beverlys_photo" class="person__photo">
+                        <h3 class="person__name">Beverly Little</h3>
+                        <p class="person_profession">Data scientist</p>
+                        <p class="person__about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        
+                        <div class="social">
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#facebook"></use>>
+                                </svg>
+                            </a>
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#twitter"></use>>
+                                </svg>
+                            </a>                      
+                            <a href="#" class="social__item" target="_blank">
+                                <svg class="social_icon">
+                                    <use xlink:href="#linkedin"></use>>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>      <!-- /. team__container -->
+            </div>  
+        </div>      <!-- /.team -->
+        
+        <!-- client -->
+            <div class="client__blog">
+                <div class="container">
+                    <div class="client__item">
+                        <div class="client__photo">
+                            <img src="/img/client.jpg" alt="client__photo" class="client__img">
+                        </div>
+                        <div class="client__description">
+                            <div class="description__container">
+                                <p class="client__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                                <p class="client__subtitle">Susan Sims, Interaction Designer at XYZ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- /.client -->
+
 </body>
 </html>
