@@ -40,6 +40,18 @@ p{
     height: 100px;
 }
 
+.header.fixed{
+    position:fixed;
+    background:#31344e;
+    height: auto;
+}
+
+
+.header.fixed .header__inner{
+    padding: 15px 0;
+    border-bottom: none;
+}
+
 .header__inner{
     display: flex;
     justify-content: space-between;
@@ -499,6 +511,8 @@ p{
     width: auto;
 }
 
+
+
 /* Media
 ========== */
 
@@ -517,7 +531,22 @@ p{
 @media (max-width:991px) {
     /* nav */
     .nav{
-        display: none;
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background-color: #31344e;
+    }
+
+    .nav.show{
+        display:flex;
+    }
+
+    .nav__link{
+        padding: 9px 15px;
     }
 
     .burger{
