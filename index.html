@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ActiveBox</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="../css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -275,14 +276,32 @@
         <!-- client -->
             <div class="client__blog" id="testimonials">
                 <div class="container">
-                    <div class="client__item">
-                        <div class="client__photo">
-                            <img src="/img/client.jpg" alt="client__photo" class="client__img">
+                    <div id="reviews__Slider" class="rewiewsSlider">
+                        <div class="slick__item">
+                            <div class="client__item">
+                                <div class="client__photo">
+                                    <img src="/img/client.jpg" alt="client__photo" class="client__img">
+                                </div>
+                                <div class="client__description">
+                                    <div class="description__container">
+                                        <p class="client__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                                        <p class="client__subtitle">Susan Sims, Interaction Designer at XYZ</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="client__description">
-                            <div class="description__container">
-                                <p class="client__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
-                                <p class="client__subtitle">Susan Sims, Interaction Designer at XYZ</p>
+
+                        <div class="slick__item">
+                            <div class="client__item">
+                                <div class="client__photo">
+                                    <img src="/img/client.jpg" alt="client__photo" class="client__img">
+                                </div>
+                                <div class="client__description">
+                                    <div class="description__container">
+                                        <p class="client__title">“Ad sit et nostrud sint.”</p>
+                                        <p class="client__subtitle">Susan Sims, Interaction Designer at XYZ</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -349,5 +368,6 @@
         </footer>
         <!-- /.footer -->
         <script src="/script/script.js"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </body>
 </html>
